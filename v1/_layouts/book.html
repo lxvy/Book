@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<article class="post container">
+  <div class="post-meta">
+    <span class="post-meta-span date">{{ page.date | date:"%Y %B %d" }}</span>
+    {% if page.tags.size > 0 %}
+    <span class="post-meta-span tag">{{ page.tags | join: ', ' }}</span>
+    {% endif %}
+  </div>
+
+  <h1 class="post-title">{{ page.title }}</h1>
+  {{ content }}
+</article>
+
+<div class="row">
+  {% for book in page.books %}
+    <div class="book-table">
+      <div class="panel-heading">{{ book.title }}</div>
+      <div class="book-content">
+        <div class="book-img">
+          <img src="{{ book.cover }}" alt="cover" class="img-thumbnail">
+        </div>
+        <div class="book-table">
+          <table class="table table-bordered">
+            <tbody>
+              <tr><td style="width:80px;">作者</td><td>{{ book.author }}</td></tr>
+              <tr><td>出版商</td><td>{{ book.publisher }}</td></tr>
+              <tr><td>语言</td><td>{{ book.language }}</td></tr>
+              <tr>
+                <td>链接</td><td>
+                <a href="{{ book.link }}" title="{{ book.link }}">图书链接</a>
+              </td></tr>
+              <tr>
+                <td>状态</td>
+                <td>
+                  {% if book.status == '已读' %}
+                    <span class="label label-success">{{ book.status }}</span>
+                  {% elsif book.status == '在读' %}
+                    <span class="label label-info">{{ book.status }}</span>
+                  {% elsif book.status == '未读' %}
+                    <span class="label label-default">{{ book.status }}</span>
+                  {% endif %}
+                </td></tr>
+              <tr><td>评论</td><td>{{ book.description }}</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
