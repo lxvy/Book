@@ -44,7 +44,7 @@ $(document).ready(function(){
       "title":"JavaScript高级程序设计",
       "src":"https://img3.doubanio.com/lpic/s8958650.jpg",
       "href":"https://book.douban.com/subject/10546125/",
-      "desc":""
+      "desc":"对javascript中的各种函数特别详细，可以作为工具书。"
     },{
       "title":"Head First jQuery（中文版）",
       "src":"https://img3.doubanio.com/lpic/s26679535.jpg",
