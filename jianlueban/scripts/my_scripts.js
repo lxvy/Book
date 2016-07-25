@@ -4,17 +4,27 @@ $(document).ready(function(){
       "title":"精通CSS:高级Web标准解决方案",
       "src":"https://img1.doubanio.com/lpic/s11187739.jpg",
       "href":"https://book.douban.com/subject/4736167/",
-      "desc":""
+      "desc":"比较好，就是书籍是2010年出版的，一些基本的css属性都有，但是还有一些变化的没有列上。本书适合初学者，介绍了一些html网页布局。"
     },{
       "title":"HTML5秘籍（第2版）",
       "src":"https://img3.doubanio.com/lpic/s28024394.jpg",
       "href":"https://book.douban.com/subject/26342322/",
-      "desc":""
+      "desc":"书籍比较全面，需要对整个HTML5的知识框架，html5的所有标签有一定的了解。"
+    },{
+      "title":"Java核心技术·卷1:基础知识",
+      "src":"https://img3.doubanio.com/lpic/s27123141.jpg",
+      "href":"https://book.douban.com/subject/25762168/",
+      "desc":"好书，适合入门。"
     },{
       "title":"如何阅读一本书",
       "src":"https://img1.doubanio.com/lpic/s1670978.jpg",
       "href":"https://book.douban.com/subject/1013208/",
       "desc":"本书讲述了一些技巧，发现有一些技巧在看过较多书籍后自然而然就知道了。所以学习是一个积累的过程,当时可能没有意思到，但已经深入骨髓中了。"
+    },{
+      "title":"Java编程思想",
+      "src":"https://img3.doubanio.com/lpic/s27969801.jpg",
+      "href":"https://book.douban.com/subject/2061172/",
+      "desc":"Java必看书籍。"
     },{
       "title":"CSS网页设计标准教程（第2版）",
       "src":"http://img3x8.ddimg.cn/23/22/23640728-1_w_1.jpg",
