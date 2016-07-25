@@ -151,6 +151,11 @@ $(document).ready(function(){
       "href":"https://book.douban.com/subject/4719162/",
       "desc":""
     },{
+      "title":"傅雷家书",
+      "src":"https://img1.doubanio.com/lpic/s2302347.jpg",
+      "href":"https://book.douban.com/subject/1047719/",
+      "desc":""
+    },{
       "title":"web性能实践日志",
       "src":"https://img1.doubanio.com/lpic/s27287707.jpg",
       "href":"https://book.douban.com/subject/25891125/",
