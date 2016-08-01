@@ -26,10 +26,10 @@ $(document).ready(function(){
       "href":"https://book.douban.com/subject/2061172/",
       "desc":"Java必看书籍。"
     },{
-      "title":"CSS网页设计标准教程（第2版）",
-      "src":"http://img3x8.ddimg.cn/23/22/23640728-1_w_1.jpg",
-      "href":"http://product.dangdang.com/23640728.html",
-      "desc":""
+      "title":"CSS揭秘",
+      "src":"https://img1.doubanio.com/lpic/s28659699.jpg",
+      "href":"https://book.douban.com/subject/26745943/",
+      "desc":"图灵2016年出版，介绍了最小的css相关属性，并举例说明。"
     },{
       "title":"JavaScript DOM编程艺术",
       "src":"https://img3.doubanio.com/lpic/s4677623.jpg",
